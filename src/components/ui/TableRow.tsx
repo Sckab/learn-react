@@ -1,4 +1,4 @@
-import Link from './Link'
+import Link from './InternalLink'
 import TableData from './TableData'
 
 export default function TableRow({

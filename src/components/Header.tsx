@@ -1,3 +1,5 @@
+import Link from '@/components/ui/ExternalLink'
+
 export default function Header({
   title,
 }: Readonly<{
@@ -9,12 +11,7 @@ export default function Header({
         <h1 className='text-4xl font-bold text-powder-blue-300 uppercase'>
           {title}
         </h1>
-        <a
-          href='https://github.com/Sckab/learn-react'
-          className='text-xl text-powder-blue-300 hover:underline'
-        >
-          Github repo
-        </a>
+        <Link link='https://github.com/Sckab/learn-react'>Github repo</Link>
       </div>
     </header>
   )

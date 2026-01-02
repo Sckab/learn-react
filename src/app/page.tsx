@@ -1,13 +1,13 @@
 import Divider from '@/components/ui/Divider'
-import Link from '@/components/ui/Link'
+import Link from '@/components/ui/ExternalLink'
 import Paragraph from '@/components/ui/Paragraph'
 import Table from '@/components/ui/Table'
 import TableRow from '@/components/ui/TableRow'
 
 export default function Home() {
   return (
-    <div className='mx-auto w-1/2'>
-      <Paragraph className='text-center'>
+    <div className='mx-auto flex w-1/2 flex-col items-center justify-center'>
+      <Paragraph>
         This site contains my projects built for learning React following{' '}
         <Link link='https://github.com/florinpop17/app-ideas'>
           florinpop17/app-ideas
