@@ -12,7 +12,9 @@ export default function PassGenPage() {
   return (
     <>
       <Title>Pass-Gen</Title>
+
       <Divider />
+
       <PassGen />
     </>
   )
