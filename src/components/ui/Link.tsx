@@ -1,16 +1,18 @@
 export default function Link({
   children,
   link,
-}: Readonly<{
+  otherPage,
+}: {
   children: React.ReactNode
   link: string
-}>) {
+  otherPage: boolean
+}) {
   return (
     <a
       href={link}
       className='font-semibold text-powder-blue-300 hover:underline'
-      target='_blank'
-      rel='noopener noreferrer'
+      target={otherPage ? '_blank' : undefined}
+      rel={otherPage ? 'noopener noreferrer' : undefined}
     >
       {children}
     </a>

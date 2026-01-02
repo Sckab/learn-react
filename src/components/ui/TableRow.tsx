@@ -15,7 +15,12 @@ export default function TableRow({
       <TableData>{projectName}</TableData>
       <TableData>{difficulty}</TableData>
       <TableData>
-        <Link link={link}>link</Link>
+        <Link
+          link={link}
+          otherPage={false}
+        >
+          link
+        </Link>
       </TableData>
     </tr>
   )

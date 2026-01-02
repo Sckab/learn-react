@@ -9,7 +9,10 @@ export default function Home() {
     <div className='mx-auto w-1/2'>
       <Paragraph className='text-center'>
         This site contains my projects built for learning React following{' '}
-        <Link link='https://github.com/florinpop17/app-ideas'>
+        <Link
+          link='https://github.com/florinpop17/app-ideas'
+          otherPage={true}
+        >
           florinpop17/app-ideas
         </Link>
         .
