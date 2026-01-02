@@ -6,7 +6,7 @@ import TableRow from '@/components/ui/TableRow'
 
 export default function Home() {
   return (
-    <div className='mx-auto flex w-1/2 flex-col items-center justify-center'>
+    <div className='flex w-full flex-col items-center justify-center px-2 md:px-3 lg:mx-auto lg:w-1/2'>
       <Paragraph>
         This site contains my projects built for learning React following{' '}
         <Link link='https://github.com/florinpop17/app-ideas'>
