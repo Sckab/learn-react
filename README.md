@@ -4,4 +4,6 @@
 
 </div>
 
-This is the repo where i build the projects following [app-ideas](https://github.com/florinpop17/app-ideas) for learning react
+This site contains my projects built for learning React.
+
+I'm following: [https://github.com/florinpop17/app-ideas](https://github.com/florinpop17/app-ideas)
