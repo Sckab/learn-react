@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
+import Bin2Dec from '@/components/bin-2-dec/Bin2Dec'
 import Divider from '@/components/ui/Divider'
 import Link from '@/components/ui/InternalLink'
 import Paragraph from '@/components/ui/Paragraph'
 import Title from '@/components/ui/Title'
-import Bin2Dec from '@/components/bin-2-dec/Bin2Dec'
 
 export const metadata: Metadata = {
   title: 'Bin 2 Dec',

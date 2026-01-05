@@ -1,8 +1,8 @@
 'use client'
 
-import { converter } from '@/lib/bin-2-dec/converter'
 import { useId, useState } from 'react'
 import Divider from '@/components/ui/Divider'
+import { converter } from '@/lib/bin-2-dec/converter'
 
 export default function Bin2Dec() {
   const formId = useId()
