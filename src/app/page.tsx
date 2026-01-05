@@ -29,6 +29,11 @@ export default function Home() {
           difficulty='easy'
           link='/pass-gen'
         />
+        <TableRow
+          projectName='bin-2-dec'
+          difficulty='easy'
+          link='/bin-2-dec'
+        />
       </Table>
     </div>
   )

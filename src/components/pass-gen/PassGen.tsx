@@ -2,7 +2,7 @@
 
 import { useId, useState } from 'react'
 import Divider from '@/components/ui/Divider'
-import { generatePassword, Password } from '@/lib/passwordGenerator'
+import { generatePassword, Password } from '@/lib/pass-gen/passwordGenerator'
 import Checkbox from './Checkbox'
 
 export default function PassGen() {
